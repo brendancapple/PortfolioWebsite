@@ -1,0 +1,20 @@
+body {
+  background-color: rgb(176, 230, 222);
+}
+h1 {
+  color: rgb(0, 0, 35);
+}
+p {
+  color: black;
+}
+
+
+/* Logo Bar */
+.SOCIALS_BUTTON{
+    padding: 0px 0px 0px 0px;
+}
+.SOCIALS_LOGO{
+    width: 1vw;
+    height: auto;
+    margin: 0px 0px 0px 0px;
+}
