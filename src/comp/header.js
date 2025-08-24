@@ -7,12 +7,13 @@ class HeaderBar extends HTMLElement {
     this.innerHTML = `
         <!-- Menu Bar -->
         <div class="MENU_BAR">
-            <button class="BAR_BUTTON">Art</button> |
-            <button class="BAR_BUTTON">Code</button> |
-            <button class="BAR_BUTTON">Modeling</button> |
-            <button class="BAR_BUTTON">Rocketry</button> |
-            <button class="BAR_BUTTON">Video</button> |
-            <button class="BAR_BUTTON">Resume</button> |
+            <button class="BAR_BUTTON" onclick="window.location.href='index.html'">Home</button> |
+            <button class="BAR_BUTTON" onclick="window.location.href='art.html'">Art</button> |
+            <button class="BAR_BUTTON" onclick="window.location.href='art.html'">Code</button> |
+            <button class="BAR_BUTTON" onclick="window.location.href='art.html'">Modeling</button> |
+            <button class="BAR_BUTTON" onclick="window.location.href='art.html'">Rocketry</button> |
+            <button class="BAR_BUTTON" onclick="window.location.href='art.html'">Video</button> |
+            <button class="BAR_BUTTON" onclick="window.location.href='art.html'">Resume</button> |
         </div>
     `;
   }

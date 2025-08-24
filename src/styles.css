@@ -1,35 +1,43 @@
+:root {
+  --bg-color: rgb(0, 15, 13);
+  --highlight-color: rgb(2, 58, 50);
+  --fg-color: rgb(183, 234, 227);
+}
+
+
+
 body {
-  background-color: rgb(2, 58, 50);
+  background-color: var(--highlight-color);
 
   padding: 0px;
 }
 h1 {
-  color: rgb(183, 234, 227);
+  color: var(--fg-color);
 
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-style: normal;
   font-size: 5vh;
 }
 h2 {
-  color: rgb(183, 234, 227);
+  color: var(--fg-color);
   
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-style: normal;
 }
 h3 {
-  color: rgb(183, 234, 227);
+  color: var(--fg-color);
 
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-style: normal;
 }
 h4 {
-  color: rgb(183, 234, 227);
+  color: var(--fg-color);
 
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-style: normal;
 }
 p {
-  color: rgb(183, 234, 227);
+  color: var(--fg-color);
 
   font-family: 'Lucida Console', 'Lucida sans';
   font-style: normal;
@@ -39,7 +47,7 @@ p {
 
 /* Main Content */
 .MAIN_DIV {
-    background-color: rgb(0, 15, 13);
+    background-color: var(--bg-color);
     box-shadow: 0vh 1vh 1vh rgba(0, 0, 0, 0.2), 0vh 1.5vh 2vh rgba(0, 0, 0, 0.2); 
 
     margin: 6vh 20vw 1vh 20vw;
@@ -50,8 +58,8 @@ p {
 
 /* Menu Bar */
 .MENU_BAR {
-    background-color: rgb(0, 15, 13);
-    color: rgb(183, 234, 227);
+    background-color: var(--bg-color);
+    color: var(--fg-color);
     box-shadow: 0vh 1vh 1vh rgba(0, 0, 0, 0.2), 0vh 1.5vh 2vh rgba(0, 0, 0, 0.2); 
 
     position: fixed;
@@ -69,7 +77,7 @@ p {
 }
 .BAR_BUTTON {
     background-color: rgba(2, 58, 50, 0);
-    color: rgb(183, 234, 227);
+    color: var(--fg-color);
 
     border: none;
     border-radius: 0.25vh;
@@ -80,11 +88,11 @@ p {
     height: 3vh;
 }
 .BAR_BUTTON:hover {
-    background-color: rgba(2, 58, 50, 0.90);
+    background-color: var(--highlight-color);
     font-style: italic;
 }
 .BAR_BUTTON:active {
-    background-color: rgb(183, 234, 227);
+    background-color: var(--fg-color);
     color: rgb(2, 58, 50);
     font-style: italic;
 }
@@ -93,7 +101,7 @@ p {
 
 /* Bottom Bar*/
 .BOTTOM_BAR {
-    background-color: rgb(0, 15, 13);
+    background-color: var(--bg-color);
     box-shadow: 0vh 1vh 1vh rgba(0, 0, 0, 0.2), 0vh 1.5vh 2vh rgba(0, 0, 0, 0.2); 
 
     margin: 0 1vw 0 1vw;
@@ -108,8 +116,9 @@ p {
     display: inline;
 }
 .SOCIALS_BUTTON {
-    /*background-color: rgba(0, 15, 13);*/
+    background-color: rgba(0, 15, 13, 0);
     
+    border: none;
     padding: 0px 0px 0px 0px;
     align-content: center;
 
