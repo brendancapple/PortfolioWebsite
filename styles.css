@@ -1,19 +1,65 @@
 body {
-  background-color: rgb(176, 230, 222);
+  background-color: rgb(2, 58, 50);
+
+  padding: 0px;
 }
 h1 {
-  color: rgb(0, 0, 35);
+  color: rgb(183, 234, 227);
+}
+h2 {
+  color: rgb(183, 234, 227);
+}
+h3 {
+  color: rgb(183, 234, 227);
+}
+h4 {
+  color: rgb(183, 234, 227);
 }
 p {
-  color: black;
+  color: rgb(183, 234, 227);
 }
 
+/* Main Content */
+.MAIN_DIV {
+    background-color: rgb(0, 15, 13);
+    box-shadow: 0vh 1vh 1vh rgba(0, 0, 0, 0.2), 0vh 1.5vh 2vh rgba(0, 0, 0, 0.2); 
+
+    margin: 6vh 20vw 1vh 20vw;
+    padding: 5vh;
+}
+
+/* Menu Bar */
+.MENU_BAR {
+    background-color: rgb(0, 15, 13);
+    box-shadow: 0vh 1vh 1vh rgba(0, 0, 0, 0.2), 0vh 1.5vh 2vh rgba(0, 0, 0, 0.2); 
+
+    position: fixed;
+    box-sizing: border-box;
+    left: 0px;
+    top: 0px;
+    width: 98vw;
+    height: 4vh;
+
+    margin: 1vh 1vw 1vh 1vw;
+    padding: 0.5vh;
+    border-radius: 0.5vh;
+}
+
+/* Bottom Bar*/
+.BOTTOM_BAR {
+    background-color: rgb(0, 15, 13);
+    box-shadow: 0vh 1vh 1vh rgba(0, 0, 0, 0.2), 0vh 1.5vh 2vh rgba(0, 0, 0, 0.2); 
+
+    margin: 0 1vw 0 1vw;
+    padding: 0 0.5vw 0 0.5vw;
+    border-radius: 0.5vh 0.5vh 0 0;
+}
 
 /* Logo Bar */
-.SOCIALS_BUTTON{
+.SOCIALS_BUTTON {
     padding: 0px 0px 0px 0px;
 }
-.SOCIALS_LOGO{
+.SOCIALS_LOGO {
     width: 1vw;
     height: auto;
     margin: 0px 0px 0px 0px;
