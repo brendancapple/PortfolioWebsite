@@ -17,40 +17,30 @@ h1 {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-style: normal;
   font-size: 5vh;
-
-  margin: 0;
 }
 h2 {
   color: var(--fg-color);
   
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-style: normal;
-  
-  margin: 0;
 }
 h3 {
   color: var(--fg-color);
 
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-style: normal;
-  
-  margin: 0;
 }
 h4 {
   color: var(--fg-color);
 
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-style: normal;
-  
-  margin: 0;
 }
 p {
   color: var(--fg-color);
 
   font-family: 'Lucida Console', 'Lucida sans';
   font-style: normal;
-  
-  margin: 0;
 }
 
 
