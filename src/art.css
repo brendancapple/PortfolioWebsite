@@ -121,11 +121,8 @@ img{
   width: auto;
 }
 .CONTENT_DIGITAL_ART_B {
-  box-sizing: border-box;
-  grid-column-start: 2;
-  grid-column-end: 4;
-  grid-row-start: 1;
-  grid-row-end: 2;
+  height: 17vw;
+  width: auto;
 }
 
 /* Bottom Bar*/
