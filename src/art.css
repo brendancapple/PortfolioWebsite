@@ -1,6 +1,6 @@
 :root {
   --fg-color: rgb(15, 7, 0);
-  --highlight-color: rgb(224, 125, 4);
+  --highlight-color: rgb(211, 156, 88);
   --bg-color: rgb(234, 208, 183);
 }
 
@@ -23,6 +23,7 @@ h2 {
   
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-style: normal;
+  text-align: center;
 }
 h3 {
   color: var(--fg-color);
@@ -122,6 +123,8 @@ img{
   border-radius: 0.5vh;
 }
 .SERIES_CONTENT {
+  display: none;
+
   text-align: center;
 }
 .ART_IMG {
