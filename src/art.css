@@ -1,6 +1,6 @@
 :root {
   --fg-color: rgb(15, 7, 0);
-  --highlight-color: rgb(211, 156, 88);
+  --highlight-color: rgb(195, 147, 88);
   --bg-color: rgb(234, 208, 183);
 }
 
@@ -44,7 +44,10 @@ p {
   font-family: 'Lucida Console', 'Lucida sans';
   font-style: normal;
 }
-img{
+hr {
+  color: var(--fg-color);
+}
+img {
   size: auto;
 }
 
@@ -124,7 +127,19 @@ img{
 }
 .SERIES_CONTENT {
   display: none;
+  text-align: center;
+}
+.SERIES_PARAGRAPH {
+  background-color: var(--bg-color);
+  box-shadow: 0vh 1vh 1vh rgba(0, 0, 0, 0.2) inset; 
 
+  margin: 1vw;
+  padding: 1vw;
+  border-radius: 0.5vh;
+}
+.IMAGE_ROW {
+  display: flex;
+  justify-content: space-evenly;
   text-align: center;
 }
 .ART_IMG {
@@ -138,6 +153,26 @@ img{
 .CONTENT_DIGITAL_ART_B {
   height: 17vw;
   width: auto;
+}
+.CONTENT_DIGITAL_ART_C {
+  height: auto;
+  width: 17vw;
+}
+.CONTENT_DIGITAL_ART_D {
+  height: auto;
+  width: 25vw;
+}
+.CONTENT_DIGITAL_ART_E {
+  height: 23vw;
+  width: auto;
+}
+.CONTENT_DIGITAL_ART_F {
+  height: 15vw;
+  width: auto;
+}
+.CONTENT_DIGITAL_ART_G {
+  height: auto;
+  width: 23%;
 }
 
 /* Bottom Bar*/
