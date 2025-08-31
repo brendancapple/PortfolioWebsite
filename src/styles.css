@@ -9,6 +9,12 @@
 body {
   background-color: var(--highlight-color);
 
+  background-attachment:fixed;
+  background-position: center bottom;
+  position: absolute;
+  box-sizing: border-box;
+  background-size:cover;
+
   padding: 0px;
 }
 h1 {
@@ -42,6 +48,13 @@ p {
 
   font-family: 'Lucida Console', 'Lucida sans';
   font-style: normal;
+}
+
+.IMAGE_THIRD {
+  width: 33%;
+  height: auto;
+  box-shadow: 0vh 1vh 1vh rgba(0, 0, 0, 0.2), 0vh 1.5vh 2vh rgba(0, 0, 0, 0.2); 
+  margin: 1vw;
 }
 
 

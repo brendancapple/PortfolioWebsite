@@ -1,6 +1,6 @@
 :root {
   --fg-color: rgb(15, 7, 0);
-  --highlight-color: rgb(195, 147, 88);
+  --highlight-color: rgb(146, 126, 103);
   --bg-color: rgb(234, 208, 183);
 }
 
@@ -8,6 +8,12 @@
 
 body {
   background-color: var(--highlight-color);
+
+  background-attachment:fixed;
+  background-position: center bottom;
+  position: absolute;
+  box-sizing: border-box;
+  background-size:cover;
 
   padding: 0px;
 }
@@ -51,6 +57,12 @@ img {
   size: auto;
 }
 
+.IMAGE_THIRD {
+  width: 33%;
+  height: auto;
+  box-shadow: 0vh 1vh 1vh rgba(0, 0, 0, 0.2), 0vh 1.5vh 2vh rgba(0, 0, 0, 0.2); 
+  margin: 1vw;
+}
 
 
 /* Main Content */
@@ -73,6 +85,7 @@ img {
   padding: 0 2vw 0 2vw;
   align-content: end;
 }
+
 
 
 /* Menu Bar */
@@ -116,6 +129,7 @@ img {
     font-style: italic;
 }
 
+/* Series */
 .SERIES_DIV {
   background-color: var(--highlight-color);
   box-shadow: 0vh 1vh 1vh rgba(0, 0, 0, 0.2), 0vh 1.5vh 2vh rgba(0, 0, 0, 0.2); 
