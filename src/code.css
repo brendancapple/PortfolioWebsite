@@ -1,0 +1,162 @@
+:root {
+  --bg-color: rgb(0, 1, 15);
+  --highlight-color: rgb(2, 32, 58);
+  --fg-color: rgb(183, 203, 234);
+}
+
+
+
+body {
+  background-color: var(--highlight-color);
+
+  background-attachment:fixed;
+  background-position: center bottom;
+  position: absolute;
+  box-sizing: border-box;
+  background-size:cover;
+
+  padding: 0px;
+}
+h1 {
+  color: var(--fg-color);
+
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-style: normal;
+  font-size: 5vh;
+  text-align: right;
+}
+h2 {
+  color: var(--fg-color);
+  
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-style: normal;
+}
+h3 {
+  color: var(--fg-color);
+
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-style: normal;
+  font-size: 2.5vh;
+}
+h4 {
+  color: var(--fg-color);
+
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-style: normal;
+}
+p {
+  color: var(--fg-color);
+
+  font-family: 'Lucida Console', 'Lucida sans';
+  font-style: normal;
+}
+
+.IMAGE_THIRD {
+  width: 33%;
+  height: auto;
+  box-shadow: 0vh 1vh 1vh rgba(0, 0, 0, 0.2), 0vh 1.5vh 2vh rgba(0, 0, 0, 0.2); 
+  margin: 1vw;
+}
+
+
+
+/* Main Content */
+.MAIN_DIV {
+    background-color: var(--bg-color);
+    box-shadow: 0vh 1vh 1vh rgba(0, 0, 0, 0.2), 0vh 1.5vh 2vh rgba(0, 0, 0, 0.2); 
+
+    margin: 6vh 20vw 1vh 20vw;
+    padding: 5vh;
+}
+.BANNER {
+  box-sizing: border-box;
+  height: 20vh;
+
+  box-shadow: 0vh 1vh 1vh rgba(0, 0, 0, 0.2), 0vh 1.5vh 2vh rgba(0, 0, 0, 0.2); 
+  
+  background-size: cover;
+  background-position: center;
+
+  padding: 0 2vw 0 2vw;
+  align-content: end;
+}
+
+
+
+/* Menu Bar */
+.MENU_BAR {
+    background-color: var(--bg-color);
+    color: var(--fg-color);
+    box-shadow: 0vh 1vh 1vh rgba(0, 0, 0, 0.2), 0vh 1.5vh 2vh rgba(0, 0, 0, 0.2); 
+
+    position: fixed;
+    box-sizing: border-box;
+    left: 0px;
+    top: 0px;
+    width: 98vw;
+    height: 4vh;
+
+    margin: 1vh 1vw 1vh 1vw;
+    padding: 0.5vh 2vh 0.5vh 2vh;
+    word-spacing: 0;
+    border-radius: 0.5vh;
+    text-align: left;
+}
+.BAR_BUTTON {
+    background-color: rgba(2, 58, 50, 0);
+    color: var(--fg-color);
+
+    border: none;
+    border-radius: 0.25vh;
+
+    padding: 0 1vh 0 1vh;
+    margin: 0 0 0 0;
+
+    height: 3vh;
+}
+.BAR_BUTTON:hover {
+    background-color: var(--highlight-color);
+    font-style: italic;
+}
+.BAR_BUTTON:active {
+    background-color: var(--fg-color);
+    color: var(--highlight-color);
+    font-style: italic;
+}
+
+
+
+/* Bottom Bar*/
+.BOTTOM_BAR {
+    background-color: var(--bg-color);
+    box-shadow: 0vh 1vh 1vh rgba(0, 0, 0, 0.2), 0vh 1.5vh 2vh rgba(0, 0, 0, 0.2); 
+
+    margin: 0 1vw 0 1vw;
+    padding: 1vh 0.5vw 1vh 0.5vw;
+    border-radius: 0.5vh 0.5vh 0 0;
+}
+
+
+
+/* Logo Bar */
+.SOCIALS {
+    display: inline;
+}
+.SOCIALS_BUTTON {
+    background-color: rgba(0, 15, 13, 0);
+    
+    border: none;
+    padding: 0px 0px 0px 0px;
+    align-content: center;
+
+    display: inline;
+}
+.SOCIALS_LOGO {
+    display: inline-block;
+
+    background-color: rgba(0, 0, 0, 0);
+
+    width: 1vw;
+    height: auto;
+    margin: 0px 0px 0px 0px;
+}

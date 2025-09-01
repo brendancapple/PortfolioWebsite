@@ -9,7 +9,7 @@ class HeaderBar extends HTMLElement {
         <div class="MENU_BAR">
             <button class="BAR_BUTTON" onclick="window.location.href='index.html'">Home</button> |
             <button class="BAR_BUTTON" onclick="window.location.href='art.html'">Art</button> |
-            <button class="BAR_BUTTON" onclick="window.location.href='art.html'">Code</button> |
+            <button class="BAR_BUTTON" onclick="window.location.href='code.html'">Code</button> |
             <button class="BAR_BUTTON" onclick="window.location.href='art.html'">Modeling</button> |
             <button class="BAR_BUTTON" onclick="window.location.href='art.html'">Rocketry</button> |
             <button class="BAR_BUTTON" onclick="window.location.href='art.html'">Video</button> |
