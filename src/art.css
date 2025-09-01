@@ -5,6 +5,19 @@
 }
 
 
+@font-face {
+  font-family: precious;
+  src: url(font/precious-regular.ttf);
+}
+@font-face {
+  font-family: dancingScript;
+  src: url(font/DancingScript-Bold.ttf);
+}
+@font-face {
+  font-family: patrickHand;
+  src: url(font/PatrickHand-Regular.ttf);
+}
+
 
 body {
   background-color: var(--highlight-color);
@@ -26,35 +39,39 @@ span {
 h1 {
   color: var(--fg-color);
 
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: precious, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-style: normal;
-  font-size: 5vh;
+  font-size: 10vh;
+  margin-bottom: 1vh;
 }
 h2 {
   color: var(--fg-color);
   
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-style: normal;
+  font-family: dancingScript, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: bold;
+  font-size: 3.5vh;
   text-align: center;
 }
 h3 {
   color: var(--fg-color);
 
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-style: normal;
-  font-size: 2.5vh;
+  font-family: dancingScript, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: bold;
+  font-size: 3vh;
 }
 h4 {
   color: var(--fg-color);
 
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-style: normal;
+  font-family: dancingScript, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: bold;
+  font-size: 2.5vh;
 }
 p {
   color: var(--fg-color);
 
-  font-family: 'Lucida Console', 'Lucida sans';
+  font-family: patrickHand, 'Times New Roman', Times, serif;
   font-style: normal;
+  font-size: large;
 }
 hr {
   color: var(--fg-color);
