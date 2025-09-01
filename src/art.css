@@ -61,6 +61,7 @@ hr {
 }
 img {
   size: auto;
+  border-radius: 0.5vh;
 }
 
 .IMAGE_THIRD {
@@ -69,6 +70,7 @@ img {
   box-shadow: 0vh 1vh 1vh rgba(0, 0, 0, 0.2), 0vh 1.5vh 2vh rgba(0, 0, 0, 0.2); 
   margin: 1vw;
 }
+
 
 
 /* Main Content */
@@ -90,6 +92,53 @@ img {
 
   padding: 0 2vw 0 2vw;
   align-content: end;
+}
+
+/* Image Popups */
+.IMAGE_POPUP {
+  background-color: rgba(0,0,0, 0.4);
+  backdrop-filter: blur(5px);
+
+  display: none;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100vw;
+  height: 100vh;
+
+  text-align: center;
+}
+.IMAGE_POPUP img {
+  object-fit: contain;
+  margin: 1vh;
+  height: 98vh;
+  width: auto;
+
+  box-shadow: 0vh 1vh 1vh rgba(0, 0, 0, 0.2), 0vh 1.5vh 2vh rgba(0, 0, 0, 0.2); 
+}
+.IMAGE_POPUP button {
+  background-color: var(--bg-color);
+  color: var(--fg-color);
+  border: none;
+  opacity: 25%;
+
+  margin: 1vh;
+  float: left;
+  width: 5vh;
+  height: 5vh;
+  
+  font-size: 3vh;
+  text-align: center;
+  align-content: center;
+}
+.IMAGE_POPUP button:hover {
+  box-shadow: 0vh 1vh 1vh rgba(0, 0, 0, 0.2), 0vh 1.5vh 2vh rgba(0, 0, 0, 0.2); 
+  opacity: 100%;
+}
+.IMAGE_POPUP button:active {
+  background-color: var(--highlight-color);
+  color: var(--bg-color);
+  opacity: 100%;
 }
 
 
@@ -197,6 +246,12 @@ img {
 .SERIES_DIV:active {
   box-shadow: 0vh 1vh 1vh rgba(0, 0, 0, 0.2) inset, 0vh 1.5vh 2vh rgba(0, 0, 0, 0.2) inset; 
 }
+.SERIES_DIV img:hover {
+  box-shadow: 0vh 1vh 1vh rgba(0, 0, 0, 0.2), 0vh 1.5vh 2vh rgba(0, 0, 0, 0.2); 
+}
+.SERIES_DIV img:active {
+  box-shadow: 0vh 1vh 1vh rgba(0, 0, 0, 0.2) inset, 0vh 1.5vh 2vh rgba(0, 0, 0, 0.2) inset; 
+}
 .SERIES_CONTENT {
   display: none;
   text-align: center;
@@ -204,6 +259,7 @@ img {
 .SERIES_PARAGRAPH {
   background-color: var(--bg-color);
   box-shadow: 0vh 1vh 1vh rgba(0, 0, 0, 0.2) inset; 
+  text-align: left;
 
   margin: 1vw;
   padding: 1vw;
@@ -246,6 +302,16 @@ img {
   height: auto;
   width: 23%;
 }
+.CONTENT_DIGITAL_ART_H {
+  height: 60vh;
+  width: auto;
+}
+.CONTENT_DIGITAL_ART_I {
+  height: 43vh;
+  width: auto;
+}
+
+
 
 /* Bottom Bar*/
 .BOTTOM_BAR {

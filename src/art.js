@@ -11,6 +11,18 @@ function toggleVisibility(targetID) {
     }
 }
 
+function imagePopout(imgURL) {
+    if(button_pressed) return;
+    button_pressed = true;
+
+    let popupTarget = document.getElementById('BIG_POPUP_DIV');
+    let imageTarget = popupTarget.getElementsByTagName('img')[0];
+    
+    imageTarget.src = imgURL;
+    popupTarget.style.display = "block";
+}
+
+
 
 // Drawing 23-24 Slideshow
 let drawing_index = 0;
@@ -25,9 +37,9 @@ let drawing_images = [
 
 function rotateDrawingSlide(reverse) {
     if (button_pressed) return;
+    button_pressed = true;
 
     let target = document.getElementById("SLIDE_DIV_DRAWING");
-    button_pressed = true;
 
     if (reverse) drawing_index--;
     else drawing_index++;

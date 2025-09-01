@@ -13,6 +13,12 @@
         <!-- Menu Bar -->
         <menu-bar></menu-bar>
 
+        <!-- Image Popup -->
+        <div class="IMAGE_POPUP" id="BIG_POPUP_DIV">
+            <button class="EXIT_BUTTON" onclick="toggleVisibility('BIG_POPUP_DIV')">X</button>
+            <img>
+        </div>
+
         <!-- ART Webpage -->
         <div class="MAIN_DIV">
             <div class="BANNER" style="background-image: url('img/art/drawing23-24/Beach.jpg');">
@@ -35,22 +41,22 @@
             <div> </div>
 
             <!-- Various Series -->
-            <div class="SERIES_DIV" id="SERIES_LOGICAL_ABSTRACTION" onclick="toggleVisibility('CONTENT_LOGICAL_ABSTRACTION')">
+            <div class="SERIES_DIV" onclick="toggleVisibility('CONTENT_LOGICAL_ABSTRACTION')">
                 <h2>Logical Abstraction</h2>
                 <div class="SERIES_CONTENT" id="CONTENT_LOGICAL_ABSTRACTION">
                     <hr>
                     <span class="IMAGE_ROW">
                         <div>
                             <h4>"Overflowing"</h4>
-                            <img class="CONTENT_DIGITAL_ART_C" src="img/art/2025/Overflowing.png" alt="Overflowing">
+                            <img class="CONTENT_DIGITAL_ART_C" src="img/art/2025/Overflowing.png" alt="Overflowing" onclick="imagePopout('img/art/2025/Overflowing.png')">
                         </div>
                         <div>
                             <h4>"Droop"</h4>
-                            <img class="CONTENT_DIGITAL_ART_C" src="img/art/2025/Droop.png" alt="Droop">
+                            <img class="CONTENT_DIGITAL_ART_C" src="img/art/2025/Droop.png" alt="Droop" onclick="imagePopout('img/art/2025/Droop.png')">
                         </div>
                         <div>
                             <h4>"Swell"</h4>
-                            <img class="CONTENT_DIGITAL_ART_C" src="img/art/2025/Swell.png" alt="Swell">
+                            <img class="CONTENT_DIGITAL_ART_C" src="img/art/2025/Swell.png" alt="Swell" onclick="imagePopout('img/art/2025/Swell.png')">
                         </div>
                     </span>
                     <div class="SERIES_PARAGRAPH">
@@ -61,7 +67,7 @@
             </div>
             <p></p>
 
-            <div class="SERIES_DIV" id="SERIES_DRAWING_23-24" onclick="toggleVisibility('CONTENT_DRAWING_23-24')">
+            <div class="SERIES_DIV" onclick="toggleVisibility('CONTENT_DRAWING_23-24')">
                 <h2>Drawing 23-24</h2>
                 <div class="SERIES_CONTENT" id="CONTENT_DRAWING_23-24">
                     <hr>
@@ -73,45 +79,45 @@
                     <div>
                         <h3>Assignment Work</h3>
                         <span class="IMAGE_ROW">
-                            <img class="CONTENT_DIGITAL_ART_D" src="img/art/drawing23-24/Vase_Contour.jpg" alt="Vase Contour">
-                            <img class="CONTENT_DIGITAL_ART_D" src="img/art/drawing23-24/Muhammad_Ali.jpg" alt="Muhammad Ali Charcoal">
+                            <img class="CONTENT_DIGITAL_ART_D" src="img/art/drawing23-24/Vase_Contour.jpg" alt="Vase Contour" onclick="imagePopout('img/art/drawing23-24/Vase_Contour.jpg')">
+                            <img class="CONTENT_DIGITAL_ART_D" src="img/art/drawing23-24/Muhammad_Ali.jpg" alt="Muhammad Ali Charcoal" onclick="imagePopout('img/art/drawing23-24/Muhammad_Ali.jpg')">
                         </span>
                         <p></p>
                         <span class="IMAGE_ROW">
-                            <img class="CONTENT_DIGITAL_ART_E" src="img/art/drawing23-24/Keys.jpg" alt="Keys Negative Space">
-                            <img class="CONTENT_DIGITAL_ART_E" src="img/art/drawing23-24/Hill_House.jpg" alt="Muhammad Ali Charcoal">
+                            <img class="CONTENT_DIGITAL_ART_E" src="img/art/drawing23-24/Keys.jpg" alt="Keys Negative Space" onclick="imagePopout('img/art/drawing23-24/Keys.jpg')">
+                            <img class="CONTENT_DIGITAL_ART_E" src="img/art/drawing23-24/Hill_House.jpg" alt="Muhammad Ali Charcoal" onclick="imagePopout('img/art/drawing23-24/Hill_House.jpg')">
                         </span>
                         <p></p>
                         <span class="IMAGE_ROW">
-                            <img class="CONTENT_DIGITAL_ART_D" src="img/art/drawing23-24/Dragon.jpg" alt="Cardboard Dragon Pencil">
-                            <img class="CONTENT_DIGITAL_ART_D" src="img/art/drawing23-24/Staring.jpg" alt="Final Project: Staring">
+                            <img class="CONTENT_DIGITAL_ART_D" src="img/art/drawing23-24/Dragon.jpg" alt="Cardboard Dragon Pencil" onclick="imagePopout('img/art/drawing23-24/Dragon.jpg')">
+                            <img class="CONTENT_DIGITAL_ART_D" src="img/art/drawing23-24/Staring.jpg" alt="Final Project: Staring" onclick="imagePopout('img/art/drawing23-24/Staring.jpg')">
                         </span>
                     </div>
                     <div>
                         <h3>Hands</h3>
                         <span class="IMAGE_ROW">
-                            <img class="CONTENT_DIGITAL_ART_F" src="img/art/drawing23-24/Hand1.jpg" alt="Hand 1">
-                            <img class="CONTENT_DIGITAL_ART_F" src="img/art/drawing23-24/Hand2.jpg" alt="Hand 2">
-                            <img class="CONTENT_DIGITAL_ART_F" src="img/art/drawing23-24/Hand3.jpg" alt="Hand 3">
-                            <img class="CONTENT_DIGITAL_ART_F" src="img/art/drawing23-24/Hand4.jpg" alt="Hand 4">
-                            <img class="CONTENT_DIGITAL_ART_F" src="img/art/drawing23-24/Hand5.jpg" alt="Hand 5">
+                            <img class="CONTENT_DIGITAL_ART_F" src="img/art/drawing23-24/Hand1.jpg" alt="Hand 1" onclick="imagePopout('img/art/drawing23-24/Hand1.jpg')">
+                            <img class="CONTENT_DIGITAL_ART_F" src="img/art/drawing23-24/Hand2.jpg" alt="Hand 2" onclick="imagePopout('img/art/drawing23-24/Hand2.jpg')">
+                            <img class="CONTENT_DIGITAL_ART_F" src="img/art/drawing23-24/Hand3.jpg" alt="Hand 3" onclick="imagePopout('img/art/drawing23-24/Hand3.jpg')">
+                            <img class="CONTENT_DIGITAL_ART_F" src="img/art/drawing23-24/Hand4.jpg" alt="Hand 4" onclick="imagePopout('img/art/drawing23-24/Hand4.jpg')">
+                            <img class="CONTENT_DIGITAL_ART_F" src="img/art/drawing23-24/Hand5.jpg" alt="Hand 5" onclick="imagePopout('img/art/drawing23-24/Hand5.jpg')">
                         </span>
                         <p></p>
                         <span class="IMAGE_ROW">
-                            <img class="CONTENT_DIGITAL_ART_F" src="img/art/drawing23-24/Hand6.jpg" alt="Hand 6">
-                            <img class="CONTENT_DIGITAL_ART_F" src="img/art/drawing23-24/Hand7.jpg" alt="Hand 7">
-                            <img class="CONTENT_DIGITAL_ART_F" src="img/art/drawing23-24/Hand8.jpg" alt="Hand 8">
-                            <img class="CONTENT_DIGITAL_ART_F" src="img/art/drawing23-24/Hand9.jpg" alt="Hand 9">
-                            <img class="CONTENT_DIGITAL_ART_F" src="img/art/drawing23-24/Hand10.jpg" alt="Hand 10">
+                            <img class="CONTENT_DIGITAL_ART_F" src="img/art/drawing23-24/Hand6.jpg" alt="Hand 6" onclick="imagePopout('img/art/drawing23-24/Hand6.jpg')">
+                            <img class="CONTENT_DIGITAL_ART_F" src="img/art/drawing23-24/Hand7.jpg" alt="Hand 7" onclick="imagePopout('img/art/drawing23-24/Hand7.jpg')">
+                            <img class="CONTENT_DIGITAL_ART_F" src="img/art/drawing23-24/Hand8.jpg" alt="Hand 8" onclick="imagePopout('img/art/drawing23-24/Hand8.jpg')">
+                            <img class="CONTENT_DIGITAL_ART_F" src="img/art/drawing23-24/Hand9.jpg" alt="Hand 9" onclick="imagePopout('img/art/drawing23-24/Hand9.jpg')">
+                            <img class="CONTENT_DIGITAL_ART_F" src="img/art/drawing23-24/Hand10.jpg" alt="Hand 10" onclick="imagePopout('img/art/drawing23-24/Hand10.jpg')">
                         </span>
                     </div>
                     <div>
                         <h3>Little Bit of Inktober</h3>
                         <span class="IMAGE_ROW">
-                            <img class="CONTENT_DIGITAL_ART_G" src="img/art/drawing23-24/Inktober_Angel.jpg" alt="Angel">
-                            <img class="CONTENT_DIGITAL_ART_G" src="img/art/drawing23-24/Inktober_Dagger.jpg" alt="Dagger">
-                            <img class="CONTENT_DIGITAL_ART_G" src="img/art/drawing23-24/Inktober_Toad.jpg" alt="Toad">
-                            <img class="CONTENT_DIGITAL_ART_G" src="img/art/drawing23-24/Inktober_Wander.jpg" alt="Wander">
+                            <img class="CONTENT_DIGITAL_ART_G" src="img/art/drawing23-24/Inktober_Angel.jpg" alt="Angel" onclick="imagePopout('img/art/drawing23-24/Inktober_Angel.jpg')">
+                            <img class="CONTENT_DIGITAL_ART_G" src="img/art/drawing23-24/Inktober_Dagger.jpg" alt="Dagger" onclick="imagePopout('img/art/drawing23-24/Inktober_Dagger.jpg')">
+                            <img class="CONTENT_DIGITAL_ART_G" src="img/art/drawing23-24/Inktober_Toad.jpg" alt="Toad" onclick="imagePopout('img/art/drawing23-24/Inktober_Toad.jpg')">
+                            <img class="CONTENT_DIGITAL_ART_G" src="img/art/drawing23-24/Inktober_Wander.jpg" alt="Wander" onclick="imagePopout('img/art/drawing23-24/Inktober_Wander.jpg')">
                         </span>
 
                     </div>
@@ -119,28 +125,56 @@
             </div>
             <p></p>
 
-            <div class="SERIES_DIV" id="SERIES_DIGITAL_ART" onclick="toggleVisibility('CONTENT_DIGITAL_ART')">
+            <div class="SERIES_DIV" onclick="toggleVisibility('CONTENT_SCRIBBLES')">
+                <h2>Scribbles</h2>
+                <div class="SERIES_CONTENT" id="CONTENT_SCRIBBLES">
+                    <hr>
+                    <h3>Pressure</h3>
+                    <span class="IMAGE_ROW">
+                        <img class="CONTENT_DIGITAL_ART_H" src="img/art/drawing23-24/Agenda.jpg" alt="Agenda" onclick="imagePopout('img/art/drawing23-24/Agenda.jpg')">
+                        <img class="CONTENT_DIGITAL_ART_H" src="img/art/drawing23-24/Bedroom.jpg" alt="Almost Warm" onclick="imagePopout('img/art/drawing23-24/Bedroom.jpg')">
+                    </span>
+                    <p></p>
+                    <h3>Snapshots</h3>
+                    <div>
+                        <img class="CONTENT_DIGITAL_ART_H" src="img/art/drawing23-24/Beach.jpg" alt="Oak Island" onclick="imagePopout('img/art/drawing23-24/Beach.jpg')">
+                        <div class="SERIES_PARAGRAPH">
+                            <p>
+                                Snapshots of memories I wish to enshrine, recorded leisurely. Each acts as a reminder for me to breath and take in the moment around me. If I hadn't drawn these, would I still remember the distant ships, sharp pebbles, or broken tractor? I doubt it.
+                            </p> 
+                        </div>
+                    </div>
+                    <span class="IMAGE_ROW">
+                        <img class="CONTENT_DIGITAL_ART_I" src="img/art/drawing23-24/Creek.jpg" alt="Creek" onclick="imagePopout('img/art/drawing23-24/Creek.jpg')">
+                        <img class="CONTENT_DIGITAL_ART_I" src="img/art/drawing23-24/Cabin.jpg" alt="Cabin" onclick="imagePopout('img/art/drawing23-24/Cabin.jpg')">
+                    </span>
+                    <p></p>
+                </div>
+            </div>
+            <p></p>
+
+            <div class="SERIES_DIV" onclick="toggleVisibility('CONTENT_DIGITAL_ART')">
                 <h2>Digital Art Archives</h2>
                 <div class="SERIES_CONTENT" id="CONTENT_DIGITAL_ART">
                     <hr>
                     <h3>- 2024 -</h3>
-                    <img class="CONTENT_DIGITAL_ART_A" src="img/art/2024/Out of Reach_Digital.jpg" alt="Out of Reach">
-                    <img class="CONTENT_DIGITAL_ART_A" src="img/art/2024/The Interim_Digital.jpg" alt="The Interim">
+                    <img class="CONTENT_DIGITAL_ART_A" src="img/art/2024/Out of Reach_Digital.jpg" alt="Out of Reach" onclick="imagePopout('img/art/2024/Out of Reach_Digital.jpg')">
+                    <img class="CONTENT_DIGITAL_ART_A" src="img/art/2024/The Interim_Digital.jpg" alt="The Interim" onclick="imagePopout('img/art/2024/The Interim_Digital.jpg')">
                     <h3>- 2023 -</h3>
-                    <img class="CONTENT_DIGITAL_ART_B" src="img/art/2023/Alice.png" alt="Alice">
-                    <img class="CONTENT_DIGITAL_ART_B" src="img/art/2023/Laura.png" alt="Laura">
-                    <img class="CONTENT_DIGITAL_ART_B" src="img/art/2023/Camila.png" alt="Camila">
-                    <img class="CONTENT_DIGITAL_ART_B" src="img/art/2023/Catherine.png" alt="Catherine">
-                    <img class="CONTENT_DIGITAL_ART_B" src="img/art/2023/Chaos.png" alt="Chaos">
+                    <img class="CONTENT_DIGITAL_ART_B" src="img/art/2023/Alice.png" alt="Alice" onclick="imagePopout('img/art/2023/Alice.png')">
+                    <img class="CONTENT_DIGITAL_ART_B" src="img/art/2023/Laura.png" alt="Laura" onclick="imagePopout('img/art/2023/Laura.png')">
+                    <img class="CONTENT_DIGITAL_ART_B" src="img/art/2023/Camila.png" alt="Camila" onclick="imagePopout('img/art/2023/Camila.png')">
+                    <img class="CONTENT_DIGITAL_ART_B" src="img/art/2023/Catherine.png" alt="Catherine" onclick="imagePopout('img/art/2023/Catherine.png')">
+                    <img class="CONTENT_DIGITAL_ART_B" src="img/art/2023/Chaos.png" alt="Chaos" onclick="imagePopout('img/art/2023/Chaos.png')">
                     <h3>- 2022 -</h3>
-                    <img class="CONTENT_DIGITAL_ART_B" src="img/art/2022/Jamie.png" alt="Jamie">
-                    <img class="CONTENT_DIGITAL_ART_B" src="img/art/2022/Kristina.png" alt="Kristina">
-                    <img class="CONTENT_DIGITAL_ART_B" src="img/art/2022/Leina.png" alt="Leina">
-                    <img class="CONTENT_DIGITAL_ART_B" src="img/art/2022/Lin.png" alt="Lin">
-                    <img class="CONTENT_DIGITAL_ART_B" src="img/art/2022/Naofumi.png" alt="Naofumi">
-                    <img class="CONTENT_DIGITAL_ART_B" src="img/art/2022/NewPortrait.png" alt="Self Portrait">
-                    <img class="CONTENT_DIGITAL_ART_B" src="img/art/2022/Sofia.png" alt="Sofia">
-                    <img class="CONTENT_DIGITAL_ART_B" src="img/art/2022/Nina.png" alt="Nina">
+                    <img class="CONTENT_DIGITAL_ART_B" src="img/art/2022/Jamie.png" alt="Jamie" onclick="imagePopout('img/art/2022/Jamie.png')">
+                    <img class="CONTENT_DIGITAL_ART_B" src="img/art/2022/Kristina.png" alt="Kristina" onclick="imagePopout('img/art/2022/Kristina.png')">
+                    <img class="CONTENT_DIGITAL_ART_B" src="img/art/2022/Leina.png" alt="Leina" onclick="imagePopout('img/art/2022/Leina.png')">
+                    <img class="CONTENT_DIGITAL_ART_B" src="img/art/2022/Lin.png" alt="Lin" onclick="imagePopout('img/art/2022/Lin.png')">
+                    <img class="CONTENT_DIGITAL_ART_B" src="img/art/2022/Naofumi.png" alt="Naofumi" onclick="imagePopout('img/art/2022/Naofumi.png')">
+                    <img class="CONTENT_DIGITAL_ART_B" src="img/art/2022/NewPortrait.png" alt="Self Portrait" onclick="imagePopout('img/art/2022/NewPortrait.png')">
+                    <img class="CONTENT_DIGITAL_ART_B" src="img/art/2022/Sofia.png" alt="Sofia" onclick="imagePopout('img/art/2022/Sofia.png')">
+                    <img class="CONTENT_DIGITAL_ART_B" src="img/art/2022/Nina.png" alt="Nina" onclick="imagePopout('img/art/2022/Nina.png')">
                 </div>
             </div>
 
