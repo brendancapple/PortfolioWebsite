@@ -17,6 +17,12 @@ body {
 
   padding: 0px;
 }
+div {
+  overflow: hidden;
+}
+span {
+  overflow: hidden;
+}
 h1 {
   color: var(--fg-color);
 
@@ -129,15 +135,67 @@ img {
     font-style: italic;
 }
 
+/* Slideshow */
+.SLIDE_DIV {
+  background-color: var(--bg-color);
+  box-shadow: 0vh 1vh 1vh rgba(0, 0, 0, 0.2) inset; 
+
+  background-size: cover;
+  background-position: center;
+
+  box-sizing: border-box;
+  height: 70vh;
+  width: auto;
+
+  align-content: center;
+
+  margin: 1vw;
+  padding: 1vw;
+  border-radius: 0.5vh;
+}
+.SLIDE_BUTTON {
+  background-color: var(--bg-color);
+  color: var(--highlight-color);
+  opacity: 5%;
+  
+  width: 5vh;
+  height: 100%;
+
+  font-size: 100%;
+
+  border: none;
+  border-radius: 0.5vh;
+}
+.SLIDE_BUTTON:hover {
+    background-color: var(--highlight-color);
+    color: var(--bg-color);
+    box-shadow: 0vh 1vh 1vh rgba(0, 0, 0, 0.2), 0vh 1.5vh 2vh rgba(0, 0, 0, 0.2); 
+    opacity: 50%;
+    font-style: italic;
+}
+.SLIDE_BUTTON:active {
+    background-color: var(--highlight-color);
+    color: var(--bg-color);
+    box-shadow: none;
+    opacity: 70%;
+    font-style: italic;
+}
+
 /* Series */
 .SERIES_DIV {
   background-color: var(--highlight-color);
-  box-shadow: 0vh 1vh 1vh rgba(0, 0, 0, 0.2), 0vh 1.5vh 2vh rgba(0, 0, 0, 0.2); 
+  box-shadow: 0vh 1vh 1vh rgba(0, 0, 0, 0.2);
 
   box-sizing: border-box;
   padding: 1vh;
 
   border-radius: 0.5vh;
+}
+.SERIES_DIV:hover {
+  box-shadow: 0vh 1vh 1vh rgba(0, 0, 0, 0.2), 0vh 1.5vh 2vh rgba(0, 0, 0, 0.2); 
+}
+.SERIES_DIV:active {
+  box-shadow: 0vh 1vh 1vh rgba(0, 0, 0, 0.2) inset, 0vh 1.5vh 2vh rgba(0, 0, 0, 0.2) inset; 
 }
 .SERIES_CONTENT {
   display: none;
