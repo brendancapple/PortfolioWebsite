@@ -1,7 +1,14 @@
 :root {
-  --bg-color: rgb(0, 1, 15);
-  --highlight-color: rgb(2, 32, 58);
+  --bg-color: rgb(12, 18, 24);
+  --highlight-color: rgb(47, 50, 66);
   --fg-color: rgb(183, 203, 234);
+}
+
+
+
+@font-face {
+  font-family: JetBrains;
+  src: url(font/JetBrainsMono-ExtraBold.woff);
 }
 
 
@@ -18,36 +25,36 @@ body {
   padding: 0px;
 }
 h1 {
-  color: var(--fg-color);
+  color: white;
 
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: JetBrains, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-style: normal;
   font-size: 5vh;
   text-align: right;
 }
 h2 {
-  color: var(--fg-color);
+  color: white;
   
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: JetBrains, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-style: normal;
 }
 h3 {
   color: var(--fg-color);
 
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: JetBrains, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-style: normal;
   font-size: 2.5vh;
 }
 h4 {
   color: var(--fg-color);
 
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: JetBrains, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-style: normal;
 }
 p {
   color: var(--fg-color);
 
-  font-family: 'Lucida Console', 'Lucida sans';
+  font-family: monospace, 'Lucida Console', 'Lucida sans';
   font-style: normal;
 }
 
@@ -79,6 +86,55 @@ p {
 
   padding: 0 2vw 0 2vw;
   align-content: end;
+}
+
+
+
+/* Projects */
+.PROJECTS_DIV {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  text-align: center;
+}
+.PROJECT {
+  background-color: var(--highlight-color);
+  background-position: center;
+  background-size: cover;
+  box-shadow: 0vh 1vh 1vh rgba(0, 0, 0, 0.2); 
+
+  display: grid;
+  box-sizing: border-box;
+  overflow: hidden;
+  width: 300px;
+  height: 300px;
+
+  border-radius: 0.5vh;
+  margin-top: 1vh;
+
+  text-align: left;
+}
+.PROJECT:hover {
+  box-shadow: 0vh 1vh 1vh rgba(48, 48, 48, 0.2), 0vh 1.5vh 2vh rgba(32, 32, 32, 0.2); 
+}
+.PROJECT div {
+  background-color: var(--highlight-color);
+  border-top: 4px solid var(--bg-color);
+
+  width: 100%;
+  padding: 5px;
+  vertical-align: bottom;
+  align-self: end;
+}
+.PROJECTS div:active {
+  background-color: var(--fg-color);
+}
+.PROJECT h2 {
+  margin: 1vh;
+  text-shadow: 0vh 1vh 1vh rgba(0, 0, 0, 0.4), 0vh 1.5vh 2vh rgba(0, 0, 0, 0.3); 
+}
+.PROJECT p {
+  margin: 1vh;
 }
 
 
