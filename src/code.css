@@ -115,7 +115,8 @@ p {
   text-align: left;
 }
 .PROJECT:hover {
-  box-shadow: 0vh 1vh 1vh rgba(48, 48, 48, 0.2), 0vh 1.5vh 2vh rgba(32, 32, 32, 0.2); 
+  box-shadow: 0vh 1vh 1vh rgba(48, 48, 48, 0.25), 0vh 1.5vh 2vh rgba(32, 32, 32, 0.2); 
+  box-shadow: 0vh 0vh 1vh rgba(255, 255, 255, 0.094) inset;
 }
 .PROJECT div {
   background-color: var(--highlight-color);
