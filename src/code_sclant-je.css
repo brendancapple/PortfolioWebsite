@@ -90,53 +90,8 @@ p {
 
 
 
-/* Projects */
-.PROJECTS_DIV {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  text-align: center;
-}
-.PROJECT {
-  background-color: var(--highlight-color);
-  background-position: center;
-  background-size: cover;
-  box-shadow: 0vh 1vh 1vh rgba(0, 0, 0, 0.2); 
+/* Reasearch Paper */
 
-  display: grid;
-  box-sizing: border-box;
-  overflow: hidden;
-  width: 300px;
-  height: 300px;
-
-  border-radius: 0.5vh;
-  margin-top: 1vh;
-
-  text-align: left;
-}
-.PROJECT:hover {
-  box-shadow: 0vh 1vh 1vh rgba(48, 48, 48, 0.25), 0vh 1.5vh 2vh rgba(32, 32, 32, 0.2); 
-  box-shadow: 0vh 0vh 1vh rgba(255, 255, 255, 0.094) inset;
-}
-.PROJECT div {
-  background-color: var(--highlight-color);
-  border-top: 4px solid var(--bg-color);
-
-  width: 100%;
-  padding: 5px;
-  vertical-align: bottom;
-  align-self: end;
-}
-.PROJECTS div:active {
-  background-color: var(--fg-color);
-}
-.PROJECT h2 {
-  margin: 1vh;
-  text-shadow: 0vh 1vh 1vh rgba(0, 0, 0, 0.4), 0vh 1.5vh 2vh rgba(0, 0, 0, 0.3); 
-}
-.PROJECT p {
-  margin: 1vh;
-}
 
 
 
