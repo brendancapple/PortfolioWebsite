@@ -7,6 +7,7 @@
 
         <script src="src/comp/header.js"></script>
         <script src="src/comp/footer.js"></script>
+        <script src="src/code_vga.js"></script>
     </head>
     <body style="background-image: url(img/code/VisualStudioCode.png);">
         <!-- Menu Bar -->
@@ -22,12 +23,34 @@
 
             <p>This is the example project for the forum I taught about C++ in my senior year of highschool. This is not exactly what the students in this course made, however it is a good example of what their final products should have looked like.</p>
 
+            <h2>Demonstration Video</h2>
             <video width="100%" height="100%" controls>
-                <source src="img/code/Video_VGATestProject.mp4" type="video/mp4">
+                <source src="img/code/VGATestProject/Video_VGATestProject.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video> 
 
             <p>Playback is slow, as the console is trying to print each character individually in quick succession. A more efficient design would create a string, then print it. However, this project was for teaching purposes, and not practical applications, and this allowed us to more quickly move from displaying the text to library management.</p>
+            <p></p>
+
+            <h2>Lecture Notes</h2>
+            <div class="SLIDESHOWS_DIV">
+                <button onclick="changeSlideshow('LECTURE_NOTES', 'img/code/VGATestProject/C++ Forum_W0.pdf')">Week 0</button>
+                <button onclick="changeSlideshow('LECTURE_NOTES', 'img/code/VGATestProject/C++ Forum_W1.pdf')">Week 1</button>
+                <button onclick="changeSlideshow('LECTURE_NOTES', 'img/code/VGATestProject/C++ Forum_W2.pdf')">Week 2</button>
+                <button onclick="changeSlideshow('LECTURE_NOTES', 'img/code/VGATestProject/C++ Forum_W3.pdf')">Week 3</button>
+                <button onclick="changeSlideshow('LECTURE_NOTES', 'img/code/VGATestProject/C++ Forum_W4.pdf')">Week 4</button>
+                <button onclick="changeSlideshow('LECTURE_NOTES', 'img/code/VGATestProject/C++ Forum_W5.pdf')">Week 5</button>
+                <button onclick="changeSlideshow('LECTURE_NOTES', 'img/code/VGATestProject/C++ Forum_W6.pdf')">Week 6</button>
+                <button onclick="changeSlideshow('LECTURE_NOTES', 'img/code/VGATestProject/C++ Forum_W7.pdf')">Week 7</button>
+                <button onclick="changeSlideshow('LECTURE_NOTES', 'img/code/VGATestProject/C++ Forum_W8.pdf')">Week 8</button>
+                <button onclick="changeSlideshow('LECTURE_NOTES', 'img/code/VGATestProject/C++ Forum_W9.pdf')">Week 9</button>
+                <button onclick="changeSlideshow('LECTURE_NOTES', 'img/code/VGATestProject/C++ Forum_W10.pdf')">Week 10</button>
+                <button onclick="changeSlideshow('LECTURE_NOTES', 'img/code/VGATestProject/C++ Forum_W11.pdf')">Week 11</button>
+            </div>            
+
+            <object id="LECTURE_NOTES" data="img/code/VGATestProject/C++ Forum_W0.pdf" type="application/pdf" width="100%" height="500px">
+                <p>Unable to display PDF file.</p>
+            </object>
 
         </div>
 
