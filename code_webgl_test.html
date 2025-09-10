@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>WebGL Test - Code - Brendan Apple</title>
+        <link rel="stylesheet" href="src/code_webgl_test.css">
+
+        <script src="src/comp/header.js"></script>
+        <script src="src/comp/footer.js"></script>
+        <script src="src/code.js"></script>
+    </head>
+    <body onload="Init();">
+        <!-- Menu Bar -->
+        <menu-bar></menu-bar>
+
+        <!-- Main Window -->
+        <div class="MAIN_DIV">
+            <div class="BANNER" style="background-image: url('img/code/Cover_WebGL_Test.png');">
+                <h1>WebGL Test</h1>
+            </div>
+
+            <h3>Project Demo</h3>
+            <div style="text-align: center;">
+                <canvas id="webgl_window" width="800" height="600px">
+                    Your browser doesn't support HTML 5
+                </canvas>
+            </div>
+            <br />
+
+            <div class="DL_DIV">
+                <h3>Directional Lights</h3>
+                <button onclick="updateLights()"> &gt; </button>
+                <span>
+                    1. 
+                    &nbsp;&nbsp;
+                    Intensity: 
+                    R <input id="DL1_R" type="number" value="0.0">
+                    G <input id="DL1_G" type="number" value="0.5">
+                    B <input id="DL1_B" type="number" value="0.0">
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    Position:
+                    X <input id="DL1_X" type="number" value="0.0">
+                    Y <input id="DL1_Y" type="number" value="0.5">
+                    Z <input id="DL1_Z" type="number" value="1.5">
+                </span><br>
+                <span>
+                    2. 
+                    &nbsp;&nbsp;
+                    Intensity: 
+                    R <input id="DL2_R" type="number" value="0.5">
+                    G <input id="DL2_G" type="number" value="0.0">
+                    B <input id="DL2_B" type="number" value="0.0">
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    Position:
+                    X <input id="DL2_X" type="number" value="1.0">
+                    Y <input id="DL2_Y" type="number" value="0.5">
+                    Z <input id="DL2_Z" type="number" value="1.5">
+                </span><br>
+                <span>
+                    3. 
+                    &nbsp;&nbsp;
+                    Intensity: 
+                    R <input id="DL3_R" type="number" value="0.0">
+                    G <input id="DL3_G" type="number" value="0.0">
+                    B <input id="DL3_B" type="number" value="0.5">
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    Position:
+                    X <input id="DL3_X" type="number" value="-1.0">
+                    Y <input id="DL3_Y" type="number" value="0.5">
+                    Z <input id="DL3_Z" type="number" value="1.5">
+                </span><br>
+                <span>
+                    4. 
+                    &nbsp;&nbsp;
+                    Intensity: 
+                    R <input id="DL4_R" type="number" value="0.0">
+                    G <input id="DL4_G" type="number" value="0.0">
+                    B <input id="DL4_B" type="number" value="0.0">
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    Position:
+                    X <input id="DL4_X" type="number" value="0.0">
+                    Y <input id="DL4_Y" type="number" value="0.0">
+                    Z <input id="DL4_Z" type="number" value="0.0">
+                </span><br>
+            </div>
+
+            <p><b>Feel free to adjust these values to see what results you get.</b> Depending on the directional light positions, you'll get much different reflections. If you want to go even deeper, you may edit the material settings in the attached json document.</p>
+            
+            <p>This is a demo using mostly the same code as the source linked, though edited slightly to fit the format of this website. </p>
+            <p><b>Go to the <a href="https://github.com/brendancapple/WebGL_Test">SCLaNT-JE Github</a> to see my source code.</b></p> 
+        </div>
+
+        <!-- Bottom Bar -->
+        <footer-module></footer-module>
+    </body>
+
+    <script src="img/code/WebGL_Test/lib/matrix.js"></script>
+    <script src="img/code/WebGL_Test/lib/util.js"></script>
+    <script src="img/code/WebGL_Test/app.js"></script>
+</html>
