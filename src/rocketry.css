@@ -57,6 +57,9 @@ p {
   font-family: monospace, 'Lucida Console', 'Lucida sans';
   font-style: normal;
 }
+a {
+  color: var(--highlight-color);
+}
 
 .IMAGE_THIRD {
   width: 33%;

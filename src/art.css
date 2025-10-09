@@ -80,6 +80,9 @@ img {
   size: auto;
   border-radius: 0.5vh;
 }
+a {
+  color: var(--highlight-color);
+}
 
 .IMAGE_THIRD {
   width: 33%;
