@@ -63,6 +63,10 @@ a {
 img {
   border-radius: 0.5vh;
 }
+video {
+  border-radius: 0.5vh;
+  padding: 0%;
+}
 
 .IMAGE_THIRD {
   width: 33%;
@@ -96,8 +100,37 @@ img {
 
 
 
-/* Reasearch Paper */
+/* Rocket Description */
+.IMAGE_FULL {
+  width: 100%;
+  height: auto;
+  box-shadow: 0vh 1vh 1vh rgba(0, 0, 0, 0.2), 0vh 1.5vh 2vh rgba(0, 0, 0, 0.2); 
+}
+.DIV_FULL {
+  margin: 1vw;
+  padding: 1vw;
+  border-radius: 0.5vh;
 
+  background-color: var(--highlight-color);
+  box-shadow: 0vh 1vh 1vh rgba(0, 0, 0, 0.2), 0vh 1.5vh 2vh rgba(0, 0, 0, 0.2); 
+}
+.DIV_HALF {
+  overflow: scroll;
+
+  width: 48%;
+  margin: 1vh;
+  padding: 1vw;
+  border-radius: 0.5vh;
+
+  background-color: var(--bg-color);
+  box-shadow: 0vh 1vh 1vh rgba(0, 0, 0, 0.2), 0vh 1.5vh 2vh rgba(0, 0, 0, 0.2); 
+}
+
+.IMAGE_ROW {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
 
 
 
