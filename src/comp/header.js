@@ -11,7 +11,6 @@ class HeaderBar extends HTMLElement {
             <button class="BAR_BUTTON" onclick="window.location.href='art.html'">Art</button> |
             <button class="BAR_BUTTON" onclick="window.location.href='code.html'">Code</button> |
             <button class="BAR_BUTTON" onclick="window.location.href='rocketry.html'">Rocketry</button> |
-            <button class="BAR_BUTTON" onclick="window.location.href='art.html'">Video</button> |
             <button class="BAR_BUTTON" onclick="window.location.href='resume.html'">Resume</button> |
         </div>
     `;
