@@ -37,13 +37,14 @@ h2 {
   
   font-family: JetBrains, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-style: normal;
+  font-size: 2.5vh;
 }
 h3 {
   color: var(--fg-color);
 
   font-family: JetBrains, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-style: normal;
-  font-size: 2.5vh;
+  font-size: 2vh;
 }
 h4 {
   color: var(--fg-color);
