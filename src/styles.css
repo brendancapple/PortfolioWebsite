@@ -1,7 +1,7 @@
 :root {
-  --bg-color: rgb(0, 15, 13);
-  --highlight-color: rgb(2, 58, 50);
-  --fg-color: rgb(183, 234, 227);
+  --bg-color: rgb(26, 35, 32);
+  --highlight-color: rgb(2, 58, 48);
+  --fg-color: rgb(172, 199, 204);
 }
 
 
@@ -18,7 +18,8 @@ body {
   padding: 0px;
 }
 h1 {
-  color: var(--fg-color);
+  color: white;
+  text-shadow: 0vh 1vh 1vh rgba(0, 0, 0, 0.3), 0vh 1.5vh 2vh rgba(0, 0, 0, 0.3); 
 
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-style: normal;
