@@ -51,7 +51,7 @@ p {
   font-style: normal;
 }
 a {
-  color: var(--highlight-color);
+  color: var(--fg-color);
 }
 img {
   border-radius: 0.5vh;
